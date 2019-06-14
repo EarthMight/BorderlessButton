@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/Linearid"
+        android:divider="?android:dividerVertical"
+        android:showDividers="middle"
+        android:padding="2dp"
+        android:background="?android:selectableItemBackground"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textview"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="?android:selectableItemBackground"
+            android:text="This is demo of Boderless Button"
+            android:textColor="#2d2d2d"
+            android:textSize="20dp"
+            />
+
+        <ImageButton
+            style="?android:borderlessButtonStyle"
+            android:src="@drawable/ic_datarecord"
+            android:layout_width="wrap_content"
+            android:id="@+id/imageButton"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:divider="@drawable/devider"
+        android:dividerPadding="12dip"
+        android:showDividers="middle"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="?android:selectableItemBackground"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textview2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="?android:selectableItemBackground"
+            android:text="This is demo of Boderless Button"
+            android:textColor="#2d2d2d"
+            android:textSize="20dp"
+            />
+
+        <ImageButton
+            style="?android:borderlessButtonStyle"
+            android:src="@drawable/ic_datarecord"
+            android:layout_width="wrap_content"
+            android:id="@+id/imageButton2"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/devider"
+        android:dividerPadding="12dip"
+        android:showDividers="middle"
+       >
+
+
+        <TextView style="@style/Widget.DescriptionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_message" />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
